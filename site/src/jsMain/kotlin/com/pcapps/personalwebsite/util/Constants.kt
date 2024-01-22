@@ -10,6 +10,8 @@ object Constants {
     const val SUMMARY_TEXT = "Results-driven Application Designer/Software Engineer with a strong background in Web / Mobile Applications Development. Demonstrated leadership in delivering critical projects like Repository for Middlesex University. Proficient in Application /\n" +
             "Solution Design using JavaScript, Java, Kotlin, applying strategic thinking and problem-solving. Extensive experience in working as part of a team, applying good\n" +
             "communication and planning skills. I am a quick learner and self-starter. Seeking impactful roles to apply diverse expertise and deliver innovative tech solutions."
+
+    const val ABOUT_TEXT = "Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum....."
 }
 
 object Res {
@@ -17,5 +19,6 @@ object Res {
         const val background = "background.svg"
         const val logo = "logo.svg"
         const val main = "main_image.png"
+        const val about = "about_image.png"
     }
 }
