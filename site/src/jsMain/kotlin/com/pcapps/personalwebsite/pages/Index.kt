@@ -1,10 +1,7 @@
 package com.pcapps.personalwebsite.pages
 
 import androidx.compose.runtime.*
-import com.pcapps.personalwebsite.sections.AboutSection
-import com.pcapps.personalwebsite.sections.MainSection
-import com.pcapps.personalwebsite.sections.ServiceContent
-import com.pcapps.personalwebsite.sections.ServiceSection
+import com.pcapps.personalwebsite.sections.*
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -26,5 +23,6 @@ fun HomePage() {
         MainSection()
         AboutSection()
         ServiceSection()
+        PortfolioSection()
     }
 }
