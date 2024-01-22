@@ -14,7 +14,7 @@ import com.pcapps.personalwebsite.util.Constants.FONT_FAMILY
 import com.pcapps.personalwebsite.util.Constants.SECTION_WIDTH
 import com.pcapps.personalwebsite.util.ObserveViewPortEntered
 import com.pcapps.personalwebsite.util.Res
-import com.pcapps.personalwebsite.util.animatePercentage
+import com.pcapps.personalwebsite.util.animateNumbers
 import com.varabyte.kobweb.compose.css.FontStyle
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
@@ -102,8 +102,8 @@ fun AboutMe() {
             viewportEntered = true
             Skill.values().forEach { skill ->
                 scope.launch{
-                    animatePercentage(
-                        percent = skill.percentage.value.toInt(),
+                    animateNumbers(
+                        number = skill.percentage.value.toInt(),
                         onUpdate = {
                             animatedPercentage[skill.ordinal] = it
                         }
