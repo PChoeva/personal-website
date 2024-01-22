@@ -12,9 +12,24 @@ object Constants {
             "communication and planning skills. I am a quick learner and self-starter. Seeking impactful roles to apply diverse expertise and deliver innovative tech solutions."
 
     const val ABOUT_TEXT = "Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum.....Lorem ipsum....."
+    const val LOREM_IPSUM_SHORTEST = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 }
 
 object Res {
+    object Icon {
+        const val web = "web_icon.svg"
+        const val seo = "seo_icon.svg"
+        const val design = "design_icon.svg"
+        const val business = "business_icon.svg"
+        const val apple = "apple_icon.svg"
+        const val android = "android_icon.svg"
+        const val link = "link_icon.svg"
+        const val user = "user_icon.svg"
+        const val shield = "shield_icon.svg"
+        const val happy = "happy_icon.svg"
+        const val checkmark = "checkmark_icon.svg"
+        const val star = "star_icon.svg"
+    }
     object Image {
         const val background = "background.svg"
         const val logo = "logo.svg"
