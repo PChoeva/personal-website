@@ -2,6 +2,7 @@ package com.pcapps.personalwebsite.pages
 
 import androidx.compose.runtime.*
 import com.pcapps.personalwebsite.sections.*
+import com.pcapps.personalwebsite.sections.TestimonialSection
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -25,5 +26,6 @@ fun HomePage() {
         ServiceSection()
         PortfolioSection()
         AchievementsSection()
+        TestimonialSection()
     }
 }
